@@ -14,6 +14,8 @@ sidebar_toc:
     name: 'Android Applications'
   - url: '#ios_apps'
     name: 'iOS Applications'
+  - url: '#game'
+    name: 'Game music'
   - url: '#raspberry_pi'
     name: 'Embedded Applications with Raspberry Pi and Csound'
   - url: '#python'
@@ -114,5 +116,14 @@ Pocket sizes computers are becoming more and more popular. Because most of them 
 Csound can obviously be used to create game music, but it's also possible to link games directly to Csound. One approach is to use OSC to send information back and forth between the game and Csound. Examples of how to do this are outlined in Marte E. Roel Lesur's article [Interfacing Csound and Unity](http://csoundjournal.com/issue19/InterfacingCsoundUnity.html)
 
 If you wish to embed Csound directly into the Unity game engine you can use [CsoundUnity](http://rorywalsh.github.io/CsoundUnity/). CsoundUnity provides a Unity C# interface to the Csound library meaning Unity can call Csound function directly without having to use a communication protocol such as OSC. 
+
+<h2 id="webapps">Web Applications</h2>
+
+Csound can be run through a browser in two different ways. The first is through the Csound PNaCl interface. Portable Native Client is a technology developed by Google that allows C/C++ modules to run natively through Google's Chrome browser. This is a very efficient way of running Csound in a browser, but must be done using Google Chrome. 
+
+The other method for running Csound in a browser is [CsoundEmscripten](http://eddyc.github.io/CsoundEmscripten/). Emscripten is a tool that allows C/C++ programs to be more or less converted into Javascript. CsoundEmscripten takes advantage of this and provides a Csound Javascript library that can be embedded directly into any browser. CsoundEmscripten does not perform as well as the PNaCl interface, but has the advantage of being able to run in any browser, on any platform. 
+
+You can find out more about both of these interfaces in a paper presented at the Linux Audio Conference in 2014, titled [Csound on the Web](http://lac.linuxaudio.org/2014/papers/23.pdf)
+
 
 <h2 id="python">Scientific Computing with Python and Csound</h2>
