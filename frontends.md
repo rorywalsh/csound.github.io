@@ -14,7 +14,7 @@ Learning to use Csound from the command line can be a bit daunting for most begi
 
 ###Blue
 <img src="http://booki.flossmanuals.net/csound/blue/static/blue_2012-10-29_generic-orc_3.png" alt="Blue" style="width: 400px;"/>
-[Blue](http://blue.kunstmusik.com) is an amazingly comprehensive composition tool for working with Csound. 
+[Blue](http://blue.kunstmusik.com) is a Csound-based integrated music environment that provides a timeline based approach to developing and composing music, as well as tools for realtime music performance and exploration. Blue provides high-level tools for coordinating and developing musical ideas, built-in scripting language support, a mixer system with user-definable graphical instruments and effects, and more. is an amazingly comprehensive composition tool for working with Csound. 
 
 ###Cabbage
 <img src="https://github.com/rorywalsh/cabbage/blob/master/Images/CabbageStudioScreen.png?raw=true" alt="Cabbage" style="width: 400px;"/>
@@ -28,3 +28,6 @@ Learning to use Csound from the command line can be a bit daunting for most begi
 <img src="http://www.zogotounga.net/comp/snapshot.gif" alt="Csound-x" style="width: 400px;"/>
 [Csound-x](http://www.zogotounga.net/comp/csoundx.html) is a set of editing modes and libraries intended to compose music for Csound using the legendary Emacs environment. 
 
+###Csound with Sublime Text 3
+<img src="https://github.com/rorywalsh/csoundSublime/blob/master/screenshot.png?raw=true" alt="Sublime3" style="width: 400px;"/>
+Sublime Text is a very popular editor for programmers or all languages. [CsoundSublime](https://github.com/rorywalsh/csoundSublime) is a collection and amalgamation of several different projects, aimed at providing Sublime 3 users with a set of simple Csound tools including syntax highlighting, context help, and compile commands. 
